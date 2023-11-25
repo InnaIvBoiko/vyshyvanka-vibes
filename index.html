@@ -21,7 +21,9 @@
     <header>
       <div class="header-wrap">
         <nav class="header-nav">
-          <a href="/index.html"><img src="/img/logo/logo.svg" alt="logo icon" width="44" height="39" /></a>
+          <a class="logo-link" href="/index.html"
+            ><img src="/img/logo/logo.svg" alt="logo icon" width="44" height="39" />
+          </a>
           <ul class="header-menu-list">
             <li class="header-menu-item">
               <a href="#about" class="header-menu-link">About us</a>
@@ -43,21 +45,21 @@
         <ul class="header-social-list">
           <li class="header-social-item">
             <a href="https://www.facebook.com/goITclub/" class="header-social-link">
-              <svg class="header-social-icon" width="40" height="40">
+              <svg class="header-social-icon" width="28" height="28">
                 <use href="./img/icons.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
           <li class="header-social-item">
             <a href="https://www.instagram.com/goitclub/" class="header-social-link">
-              <svg class="header-social-icon" width="40" height="40">
+              <svg class="header-social-icon" width="28" height="28">
                 <use href="./img/icons.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
           <li class="header-social-item">
             <a href="https://www.youtube.com/c/GoIT" class="header-social-link">
-              <svg class="header-social-icon" width="40" height="40">
+              <svg class="header-social-icon" width="28" height="28">
                 <use href="./img/icons.svg#icon-youtube"></use>
               </svg>
             </a>
@@ -72,15 +74,23 @@
     </header>
     <main>
       <section id="hero">
-        <div class="container">
-          <h1>Reviving the traditional <span class="accented">Ukrainian</span> artistry in every stitch.</h1>
+        <div class="container hero-container">
+          <h1 class="hero-title">
+            Reviving the traditional <span class="accented">Ukrainian</span> artistry in every stitch.
+          </h1>
           <a class="hero-btn-link" href="#order"
             >Order
             <svg class="header-bth-icon" width="26" height="10">
               <use href="./img/icons.svg#icon-arrow"></use>
             </svg>
           </a>
-          <img src="./img/hero/girl-hero-mob.jpg" alt="girl with Vyshyvanka" />
+          <img
+            class="hero-img-main"
+            src="./img/hero/girl-hero-mob.jpg"
+            alt="girl with Vyshyvanka"
+            width="335"
+            height="545"
+          />
         </div>
         <div class="hero-section-decoration">
           <div class="hero-decor-wrap">
@@ -89,26 +99,34 @@
             </svg>
             <p class="hero-decor-text">all embroidery is made by hand</p>
           </div>
-          <img class="hero-decor-img" src="./img/hero/map-ukr-hero.png" alt="maps of Ukrainian" />
+          <img
+            class="hero-decor-img"
+            src="./img/hero/map-ukr-hero.png"
+            alt="maps of Ukrainian"
+            width="157"
+            height="223"
+          />
         </div>
       </section>
       <section id="about">
         <div class="container">
           <h2>About Us</h2>
-          <p class="text-main">
-            The store "Vyshyvanka Vibes" is a place where traditional Ukrainian vyshyvanka comes to life with new zest
-            and style. Our store offers a wide selection of high-quality and authentic embroidery, which combines the
-            elegance of traditional needlework and modern design.
-          </p>
-          <p class="text-main">
-            In "Vyshyvanka Vibes" you will find various models of embroidery, from classic to modern, corresponding to
-            the latest fashion trends. Our embroidery is made using natural fabrics and is embroidered by highly
-            qualified craftsmen who convey the beauty of Ukrainian culture in every detail.We believe that vyshyvanka is
-            not just clothing, but a symbol of national pride, the heritage of our ancestors and a way of expressing
-            one's individuality. Each embroidery from "Vyshyvanka Vibes" has its own unique history and symbolism, which
-            gives it a special meaning.
-          </p>
-          <img class="about-img" src="./img/about/vyshyvanka-about-mob.jpg" alt="Vyshyvanka" />
+          <div class="about-text-wrap">
+            <p class="text-main">
+              The store "Vyshyvanka Vibes" is a place where traditional Ukrainian vyshyvanka comes to life with new zest
+              and style. Our store offers a wide selection of high-quality and authentic embroidery, which combines the
+              elegance of traditional needlework and modern design.
+            </p>
+            <p class="text-main">
+              In "Vyshyvanka Vibes" you will find various models of embroidery, from classic to modern, corresponding to
+              the latest fashion trends. Our embroidery is made using natural fabrics and is embroidered by highly
+              qualified craftsmen who convey the beauty of Ukrainian culture in every detail.We believe that vyshyvanka
+              is not just clothing, but a symbol of national pride, the heritage of our ancestors and a way of
+              expressing one's individuality. Each embroidery from "Vyshyvanka Vibes" has its own unique history and
+              symbolism, which gives it a special meaning.
+            </p>
+          </div>
+          <img class="about-img" src="./img/about/vyshyvanka-about-mob.jpg" alt="Vyshyvanka" width="335" height="499" />
         </div>
         <div class="about-bg-element">
           <img
@@ -120,7 +138,7 @@
       </section>
       <section id="collection">
         <div class="container">
-          <h2>Our collection</h2>
+          <h2 class="center">Our collection</h2>
           <ul class="collection-cart-list">
             <li class="collection-cart-item">
               <img
@@ -183,6 +201,7 @@
             src="./img/bg-elements/bg-el-collection-mob.png"
             alt="decoration element of background"
             class="collection-bg-el-img"
+            height="143"
           />
         </div>
       </section>

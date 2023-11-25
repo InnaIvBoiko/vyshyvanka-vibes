@@ -66,6 +66,7 @@ h2 {
   font-weight: 500;
   line-height: 1.38;
   letter-spacing: -0.03em;
+  margin-bottom: 40px;
 }
 
 .accented {
@@ -76,6 +77,166 @@ h2 {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+}
+
+/* header */
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 20px auto 60px auto;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo-link {
+  min-width: 44px;
+  min-height: 39px;
+  margin-right: 87px;
+}
+
+.header-social-list {
+  display: flex;
+  gap: 12px;
+  margin-right: 12px;
+}
+
+.header-social-item {
+  padding: 4px 0;
+}
+
+.header-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: rgba(252, 249, 249, 0.1);
+  padding: 8px;
+  opacity: 0.8;
+  fill: rgba(252, 249, 249, 1);
+}
+
+.header-burger-menu-btn {
+  background-color: transparent;
+  border: none;
+  line-height: 0;
+  padding: 0;
+  stroke: rgba(236, 217, 121, 1);
+}
+
+/* hero styles */
+
+.hero-btn-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 155px;
+  padding: 14px 36px;
+  margin: 20px auto 40px 70px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #fcf9f9;
+  fill: #ecd979;
+}
+
+/* about styles */
+
+.about-text-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.text-main {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  color: rgba(252, 249, 249, 0.4);
+}
+
+.about-img {
+  width: 100%;
+}
+
+.about-bg-element {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: 18px;
+}
+
+/* collection styles */
+
+.center {
+  text-align: center;
+}
+
+.collection-cart-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.collection-cart-item {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.collection-cart-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  margin: 18px 0 8px 0;
+}
+
+.collection-cart-text {
+  color: rgba(252, 249, 249, 0.4);
+}
+
+.collection-bg-element {
+  position: absolute;
+  z-index: -1;
+  top: 298px;
+  left: 0;
+}
+
+/* order styles */
+
+.order-bg-img {
+  background-image: url(/img/order/bg-girl-order-mob.jpg);
+}
+
+/* media styles */
+
+@media screen and (max-width: 767px) {
+  .hero-section-decoration {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .header-menu-list,
+  .header-menu-adress {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -95,6 +256,102 @@ h2 {
   h2 {
     font-size: 44px;
     line-height: 1.45;
+  }
+
+  /* header */
+
+  .header-wrap {
+    max-width: 768px;
+    padding: 0 32px;
+    margin: 20px auto 106px auto;
+  }
+
+  .logo-link {
+    margin-right: 440px;
+  }
+
+  .header-social-list {
+    margin-right: 20px;
+  }
+
+  .header-burger-menu-btn-icon {
+    width: 44px;
+    height: 30px;
+  }
+
+  /* hero styles */
+
+  .hero-title {
+    max-width: 540px;
+  }
+
+  .hero-btn-link {
+    max-width: 168px;
+    padding: 14px 39px;
+    margin: 40px auto 40px 141px;
+    font-size: 16px;
+  }
+
+  .hero-img-main {
+    width: 413px;
+    height: 575px;
+  }
+
+  .hero-section-decoration {
+    position: absolute;
+    right: 32px;
+    bottom: -12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 679px;
+  }
+
+  .hero-decor-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    max-width: 115px;
+    fill: #ecd979;
+    color: rgba(252, 249, 249, 0.4);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+  }
+
+  /* about styles */
+
+  .about-text-wrap {
+    margin-bottom: 40px;
+  }
+
+  .text-main {
+    font-size: 16px;
+  }
+
+  .about-bg-element {
+    bottom: 50px;
+  }
+
+  /* collection styles */
+
+  .center {
+    text-align: center;
+  }
+
+  .collection-cart-list {
+    column-gap: 20px;
+  }
+
+  .collection-cart-item {
+    width: calc((100% - 20px) / 2);
+    font-size: 18px;
+  }
+
+  .collection-bg-element {
+    left: 0;
   }
 }
 
