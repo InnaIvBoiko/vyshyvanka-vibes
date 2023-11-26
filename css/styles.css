@@ -222,6 +222,134 @@ h2 {
 
 .order-bg-img {
   background-image: url(/img/order/bg-girl-order-mob.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  min-height: 550px;
+  max-width: 375px;
+  margin-bottom: 80px;
+}
+
+@media (min-resolution: 192dpi), screen and (min-resolution: 2ddpx), screen and (min-device-pixel-ratio: 2) {
+  .order-bg-img {
+    background-image: url(/img/order/bg-girl-order-mob@2x.jpg);
+  }
+}
+.order-form-input {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: transparent;
+  color: #fcf9f9;
+  padding: 14px 16px;
+  margin-bottom: 20px;
+}
+
+.order-form-textaria {
+  width: 100%;
+  height: 196px;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: transparent;
+  color: #fcf9f9;
+  padding: 14px 16px;
+  resize: none;
+  margin-bottom: 40px;
+}
+
+.order-form-input::placeholder,
+.order-form-textaria::placeholder {
+  color: rgba(252, 249, 249, 0.5);
+}
+
+.order-form-btn {
+  display: flex;
+  min-width: 145px;
+  height: 49px;
+  padding: 14px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #fcf9f9;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-bth-icon {
+  width: 27px;
+  height: 21px;
+  fill: #ecd979;
+}
+
+.order-foto-element,
+.order-bg-element {
+  display: none;
+}
+
+/* testimonials styles */
+
+.testimonials-cart-item {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 0px 18px 18px 18px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  margin-top: 24px;
+}
+
+.testimonials-cart-item:nth-child(2),
+.testimonials-cart-item:nth-child(3) {
+  display: none;
+}
+
+.testimonials-cart-foto {
+  position: absolute;
+  transform: translateX(-50%);
+  top: -24px;
+  left: 50%;
+}
+
+.testimonials-cart-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-top: 54px;
+  margin-bottom: 8px;
+}
+
+/* footer styles */
+
+.footer-menu-list {
+  width: 335px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  row-gap: 25px;
+  max-height: 61px;
+  padding: 0 20px;
+}
+
+.footer-menu-item {
+  display: flexbox;
+  max-width: 124px;
 }
 
 /* media styles */
@@ -353,6 +481,21 @@ h2 {
   .collection-bg-element {
     left: 0;
   }
+
+  /* oreder styles */
+
+  .order-bg-img {
+    background-image: url(/img/order/bg-girl-order-tab.jpg);
+    max-width: 768px;
+    min-height: 776px;
+    margin-bottom: 100px;
+  }
+
+  @media (min-resolution: 192dpi), screen and (min-resolution: 2ddpx), screen and (min-device-pixel-ratio: 2) {
+    .order-bg-img {
+      background-image: url(/img/order/bg-girl-order-tab@2x.jpg);
+    }
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -364,6 +507,20 @@ h2 {
     max-width: 1280px;
     padding: 0 100px;
   }
+
+  /* oreder styles */
+
+  .order-bg-img {
+    background-image: url(/img/order/bg-girl-order-desk.jpg);
+    max-width: 1282px;
+    margin-bottom: 150px;
+  }
+
+  @media (min-resolution: 192dpi), screen and (min-resolution: 2ddpx), screen and (min-device-pixel-ratio: 2) {
+    .order-bg-img {
+      background-image: url(/img/order/bg-girl-order-desk@2x.jpg);
+    }
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -374,5 +531,18 @@ h2 {
   h1 {
     font-size: 64px;
     line-height: 1.16;
+  }
+
+  /* oreder styles */
+
+  .order-bg-img {
+    background-image: url(/img/order/bg-girl-order-desk-xl.jpg);
+    max-width: 1440px;
+  }
+
+  @media (min-resolution: 192dpi), screen and (min-resolution: 2ddpx), screen and (min-device-pixel-ratio: 2) {
+    .order-bg-img {
+      background-image: url(/img/order/bg-girl-order-desk-xl@2x.jpg);
+    }
   }
 }

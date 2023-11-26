@@ -208,24 +208,63 @@
       <section id="order">
         <div class="order-bg-img"></div>
         <div class="container">
-          <h2>
-            <span class="accented">Your order</span> is our priority: Personalized approach and quality of service
-          </h2>
-          <form class="order-form">
-            <label class="order-form-label" for="">
-              <input class="order-form-input" type="text" />
-            </label>
-            <label class="order-form-label" for="">
-              <input class="order-form-input" type="email" />
-            </label>
-            <textarea class="order-form-textaria"></textarea>
-            <button class="order-form-btn" type="submit">
-              Send
-              <svg class="header-bth-icon" width="26" height="10">
-                <use href="./img/icons.svg#icon-arrow"></use>
-              </svg>
-            </button>
-          </form>
+          <div class="order-form-wrap">
+            <h2>
+              <span class="accented">Your order</span> is our priority: Personalized approach and quality of service
+            </h2>
+            <form class="order-form">
+              <label class="order-form-label" for="user-name">
+                <input
+                  class="order-form-input"
+                  type="text"
+                  name="user_name"
+                  id="user-name"
+                  required
+                  placeholder="Enter your full name"
+                  pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐйЙʼ]+"
+                />
+              </label>
+              <label class="order-form-label" for="user-email">
+                <input
+                  class="order-form-input"
+                  type="email"
+                  name="user_email"
+                  id="user-email"
+                  required
+                  placeholder="Enter your email"
+                />
+              </label>
+              <label class="order-form-message" for="user-comment">
+                <textarea
+                  class="order-form-textaria"
+                  name="user_comment"
+                  id="user-comment"
+                  required
+                  placeholder="Comments"
+                ></textarea>
+              </label>
+              <button class="order-form-btn" type="submit">
+                Send
+                <svg class="header-bth-icon">
+                  <use href="./img/icons.svg#icon-arrow"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="order-foto-element">
+          <img
+            class="order-img"
+            srcset="
+              /img/order/girl-order-tab.jpg      638w,
+              /img/order/girl-order-desk.jpg     524w,
+              /img/order/girl-order-tab@2x.jpg  1276w,
+              /img/order/girl-order-desk@2x.jpg 1048w
+            "
+            sizes="(min-width: 1280px) 524px, (min-width: 768px) 638px"
+            src="/img/order/girl-order-tab.jpg"
+            alt="picture with an example of Vyshyvanka style"
+          />
         </div>
         <div class="order-bg-element">
           <img
