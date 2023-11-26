@@ -336,20 +336,45 @@ h2 {
 
 /* footer styles */
 
+.footer-wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 375px;
+  padding: 0 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .footer-menu-list {
-  width: 335px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   column-gap: 40px;
   row-gap: 25px;
-  max-height: 61px;
-  padding: 0 20px;
+  max-height: 62px;
 }
 
+.footer-menu-link {
+  display: block;
+}
 .footer-menu-item {
-  display: flexbox;
   max-width: 124px;
+}
+
+.footer-slogan {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.23; /* 122.727% */
+  letter-spacing: -0.03em;
+  margin-top: 40px;
+  padding-bottom: 292px;
+}
+
+.footer-bg-element {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 /* media styles */
