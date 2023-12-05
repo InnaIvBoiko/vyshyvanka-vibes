@@ -322,6 +322,7 @@ h2 {
   color: #fcf9f9;
   padding: 14px 16px;
   margin-bottom: 20px;
+  transition: border-color 250ms linear;
 }
 
 .order-form-textaria {
@@ -337,11 +338,18 @@ h2 {
   padding: 14px 16px;
   resize: none;
   margin-bottom: 40px;
+  transition: outline-color 250ms linear;
 }
 
 .order-form-input::placeholder,
 .order-form-textaria::placeholder {
   color: rgba(252, 249, 249, 0.5);
+}
+
+.order-form-input:focus,
+.order-form-textaria:focus {
+  outline-color: #ecd979;
+  outline-offset: 0;
 }
 
 .order-form-btn {
@@ -362,6 +370,12 @@ h2 {
   color: #fcf9f9;
   margin-left: auto;
   margin-right: auto;
+  transition: border-color 250ms linear;
+}
+
+.order-form-btn:hover,
+.order-form-btn:focus {
+  border-color: #ecd979;
 }
 
 .order-bth-icon {
