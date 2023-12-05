@@ -210,14 +210,14 @@ h2 {
   z-index: -1;
   right: 0;
   bottom: -62px;
-  background-image: url(/img/bg-elements/bg-el-about-mob.png);
+  background-image: url(./img/bg-elements/bg-el-about-mob.png);
 }
 
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px),
   screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px) {
   .about-bg-element {
-    background-image: url(/img/bg-elements/bg-el-about-mob@2x.png);
+    background-image: url(./img/bg-elements/bg-el-about-mob@2x.png);
   }
 }
 
@@ -276,7 +276,7 @@ h2 {
 .collection-bg-element {
   min-width: 72px;
   height: 177px;
-  background-image: url(/img/bg-elements/bg-el-collection-mob.png);
+  background-image: url(./img/bg-elements/bg-el-collection-mob.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -288,14 +288,14 @@ h2 {
   screen and (min-resolution: 2dppx) and (max-width: 767px),
   screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px) {
   .collection-bg-element {
-    background-image: url(/img/bg-elements/bg-el-collection-mob@2x.png);
+    background-image: url(./img/bg-elements/bg-el-collection-mob@2x.png);
   }
 }
 
 /* 320 375 mobile order styles */
 
 .order-bg-img {
-  background-image: url(/img/order/bg-girl-order-mob.jpg);
+  background-image: url(./img/order/bg-girl-order-mob.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -308,7 +308,7 @@ h2 {
   screen and (min-resolution: 2dppx) and (max-width: 767px),
   screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px) {
   .order-bg-img {
-    background-image: url(/img/order/bg-girl-order-mob@2x.jpg);
+    background-image: url(./img/order/bg-girl-order-mob@2x.jpg);
   }
 }
 .order-form-input {
@@ -457,7 +457,7 @@ h2 {
 .footer-bg-element {
   width: 100%;
   height: 212px;
-  background-image: url(/img/bg-elements/bg-el-footer-mob.png);
+  background-image: url(./img/bg-elements/bg-el-footer-mob.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -470,7 +470,7 @@ h2 {
   screen and (min-resolution: 2dppx) and (max-width: 767px),
   screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px) {
   .footer-bg-element {
-    background-image: url(/img/bg-elements/bg-el-footer-mob@2x.png);
+    background-image: url(./img/bg-elements/bg-el-footer-mob@2x.png);
   }
 }
 /* 320 375 mobile modal windows */
@@ -562,7 +562,7 @@ h2 {
 .burger-bg-element {
   width: 100%;
   height: 251px;
-  background-image: url(/img/bg-elements/bg-el-menu-mob.png);
+  background-image: url(./img/bg-elements/bg-el-menu-mob.png);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -572,7 +572,7 @@ h2 {
   screen and (min-resolution: 2dppx) and (max-width: 767px),
   screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px) {
   .burger-bg-element {
-    background-image: url(/img/bg-elements/bg-el-menu-mob@2x.png);
+    background-image: url(./img/bg-elements/bg-el-menu-mob@2x.png);
   }
 }
 
@@ -693,14 +693,14 @@ h2 {
     width: 369px;
     height: 484px;
     bottom: -50px;
-    background-image: url(/img/bg-elements/bg-el-about-tab.png);
+    background-image: url(./img/bg-elements/bg-el-about-tab.png);
   }
 
   @media screen and (min-resolution: 192dpi) and (max-width: 1279px),
     screen and (min-resolution: 2dppx) and (max-width: 1279px),
     screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1279px) {
     .about-bg-element {
-      background-image: url(/img/bg-elements/bg-el-about-tab@2x.png);
+      background-image: url(./img/bg-elements/bg-el-about-tab@2x.png);
     }
   }
 
@@ -727,7 +727,7 @@ h2 {
   .collection-bg-element {
     max-width: 369px;
     height: 300px;
-    background-image: url(/img/bg-elements/bg-el-collection-tab.png);
+    background-image: url(./img/bg-elements/bg-el-collection-tab.png);
     top: 221px;
   }
 
@@ -735,14 +735,14 @@ h2 {
     screen and (min-resolution: 2dppx) and (max-width: 1279px),
     screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1279px) {
     .collection-bg-element {
-      background-image: url(/img/bg-elements/bg-el-collection-tab@2x.png);
+      background-image: url(./img/bg-elements/bg-el-collection-tab@2x.png);
     }
   }
 
   /* 768 oreder styles */
 
   .order-bg-img {
-    background-image: url(/img/order/bg-girl-order-tab.jpg);
+    background-image: url(./img/order/bg-girl-order-tab.jpg);
     max-width: 768px;
     min-height: 776px;
     margin-bottom: 100px;
@@ -752,7 +752,7 @@ h2 {
     screen and (min-resolution: 2dppx) and (max-width: 1279px),
     screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1279px) {
     .order-bg-img {
-      background-image: url(/img/order/bg-girl-order-tab@2x.jpg);
+      background-image: url(./img/order/bg-girl-order-tab@2x.jpg);
     }
   }
 
@@ -793,7 +793,7 @@ h2 {
     z-index: -1;
     left: 0;
     bottom: -79px;
-    background-image: url(/img/bg-elements/bg-el-order-tab.png);
+    background-image: url(./img/bg-elements/bg-el-order-tab.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -802,7 +802,7 @@ h2 {
     screen and (min-resolution: 2dppx) and (max-width: 1279px),
     screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1279px) {
     .order-bg-element {
-      background-image: url(/img/bg-elements/bg-el-order-tab@2x.png);
+      background-image: url(./img/bg-elements/bg-el-order-tab@2x.png);
     }
   }
 
@@ -844,7 +844,7 @@ h2 {
   .footer-bg-element {
     width: 174px;
     height: 370px;
-    background-image: url(/img/bg-elements/bg-el-footer-tab.png);
+    background-image: url(./img/bg-elements/bg-el-footer-tab.png);
     background-position: right;
   }
 
@@ -852,7 +852,7 @@ h2 {
     screen and (min-resolution: 2dppx) and (max-width: 1279px),
     screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1279px) {
     .footer-bg-element {
-      background-image: url(/img/bg-elements/bg-el-footer-tab@2x.png);
+      background-image: url(./img/bg-elements/bg-el-footer-tab@2x.png);
     }
   }
 
@@ -891,14 +891,14 @@ h2 {
 
   .burger-bg-element {
     height: 364px;
-    background-image: url(/img/bg-elements/bg-el-menu-tab.png);
+    background-image: url(./img/bg-elements/bg-el-menu-tab.png);
   }
 
   @media screen and (min-resolution: 192dpi) and (min-width: 768px),
     screen and (min-resolution: 2dppx) and (min-width: 768px),
     screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px) {
     .burger-bg-element {
-      background-image: url(/img/bg-elements/bg-el-menu-tab@2x.png);
+      background-image: url(./img/bg-elements/bg-el-menu-tab@2x.png);
     }
   }
 }
@@ -1036,14 +1036,14 @@ h2 {
     width: 385px;
     height: 484px;
     bottom: -80px;
-    background-image: url(/img/bg-elements/bg-el-about-desk.png);
+    background-image: url(./img/bg-elements/bg-el-about-desk.png);
   }
 
   @media screen and (min-resolution: 192dpi) and (max-width: 1439px),
     screen and (min-resolution: 2dppx) and (max-width: 1439px),
     screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1439px) {
     .about-bg-element {
-      background-image: url(/img/bg-elements/bg-el-about-desk@2x.png);
+      background-image: url(./img/bg-elements/bg-el-about-desk@2x.png);
     }
   }
 
@@ -1064,21 +1064,21 @@ h2 {
 
   .collection-bg-element {
     min-width: 385px;
-    background-image: url(/img/bg-elements/bg-el-collection-desk.png);
+    background-image: url(./img/bg-elements/bg-el-collection-desk.png);
   }
 
   @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
     screen and (min-resolution: 2dppx) and (min-width: 1280px),
     screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px) {
     .collection-bg-element {
-      background-image: url(/img/bg-elements/bg-el-collection-desk@2x.png);
+      background-image: url(./img/bg-elements/bg-el-collection-desk@2x.png);
     }
   }
 
   /* 1280 order styles */
 
   .order-bg-img {
-    background-image: url(/img/order/bg-girl-order-desk.jpg);
+    background-image: url(./img/order/bg-girl-order-desk.jpg);
     max-width: 1282px;
     margin-bottom: 150px;
   }
@@ -1087,7 +1087,7 @@ h2 {
     screen and (min-resolution: 2dppx) and (max-width: 1439px),
     screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1439px) {
     .order-bg-img {
-      background-image: url(/img/order/bg-girl-order-desk@2x.jpg);
+      background-image: url(./img/order/bg-girl-order-desk@2x.jpg);
     }
   }
   .order-form-wrap {
@@ -1108,7 +1108,7 @@ h2 {
   .order-bg-element {
     min-width: 289px;
     bottom: 0;
-    background-image: url(/img/bg-elements/bg-el-order-desk.png);
+    background-image: url(./img/bg-elements/bg-el-order-desk.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -1117,7 +1117,7 @@ h2 {
     screen and (min-resolution: 2dppx) and (max-width: 1439px),
     screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1439px) {
     .order-bg-element {
-      background-image: url(/img/bg-elements/bg-el-order-desk@2x.png);
+      background-image: url(./img/bg-elements/bg-el-order-desk@2x.png);
     }
   }
 
@@ -1151,14 +1151,14 @@ h2 {
   .footer-bg-element {
     width: 336px;
     height: 363px;
-    background-image: url(/img/bg-elements/bg-el-footer-desk.png);
+    background-image: url(./img/bg-elements/bg-el-footer-desk.png);
   }
 
   @media screen and (min-resolution: 192dpi) and (max-width: 1439px),
     screen and (min-resolution: 2dppx) and (max-width: 1439px),
     screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1439px) {
     .footer-bg-element {
-      background-image: url(/img/bg-elements/bg-el-footer-desk@2x.png);
+      background-image: url(./img/bg-elements/bg-el-footer-desk@2x.png);
     }
   }
 }
@@ -1212,14 +1212,14 @@ h2 {
 
   .about-bg-element {
     width: 545px;
-    background-image: url(/img/bg-elements/bg-el-about-desk-xl.png);
+    background-image: url(./img/bg-elements/bg-el-about-desk-xl.png);
   }
 
   @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
     screen and (min-resolution: 2dppx) and (min-width: 1440px),
     screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px) {
     .about-bg-element {
-      background-image: url(/img/bg-elements/bg-el-about-desk-xl@2x.png);
+      background-image: url(./img/bg-elements/bg-el-about-desk-xl@2x.png);
     }
   }
 
@@ -1236,7 +1236,7 @@ h2 {
   /* 1440 oreder styles */
 
   .order-bg-img {
-    background-image: url(/img/order/bg-girl-order-desk-xl.jpg);
+    background-image: url(./img/order/bg-girl-order-desk-xl.jpg);
     max-width: 1440px;
   }
 
@@ -1244,7 +1244,7 @@ h2 {
     screen and (min-resolution: 2dppx) and (min-width: 1440px),
     screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px) {
     .order-bg-img {
-      background-image: url(/img/order/bg-girl-order-desk-xl@2x.jpg);
+      background-image: url(./img/order/bg-girl-order-desk-xl@2x.jpg);
     }
   }
 
@@ -1259,14 +1259,14 @@ h2 {
 
   .order-bg-element {
     min-width: 325px;
-    background-image: url(/img/bg-elements/bg-el-order-desk-xl.png);
+    background-image: url(./img/bg-elements/bg-el-order-desk-xl.png);
   }
 
   @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
     screen and (min-resolution: 2dppx) and (min-width: 1440px),
     screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px) {
     .order-bg-element {
-      background-image: url(/img/bg-elements/bg-el-order-desk-xl@2x.png);
+      background-image: url(./img/bg-elements/bg-el-order-desk-xl@2x.png);
     }
   }
 
@@ -1278,14 +1278,14 @@ h2 {
 
   .footer-bg-element {
     width: 496px;
-    background-image: url(/img/bg-elements/bg-el-footer-desk-xl.png);
+    background-image: url(./img/bg-elements/bg-el-footer-desk-xl.png);
   }
 
   @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
     screen and (min-resolution: 2dppx) and (min-width: 1440px),
     screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px) {
     .footer-bg-element {
-      background-image: url(/img/bg-elements/bg-el-footer-desk-xl@2x.png);
+      background-image: url(./img/bg-elements/bg-el-footer-desk-xl@2x.png);
     }
   }
 }
