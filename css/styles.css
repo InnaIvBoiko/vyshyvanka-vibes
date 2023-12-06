@@ -454,12 +454,17 @@ h2 {
 
 .footer-menu-link {
   display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  text-transform: uppercase;
+  text-wrap: nowrap;
   transition: color 250ms linear;
-  }
+}
 
-  .footer-menu-link:hover,
-  .footer-menu-link:focus {
-    color: #ecd979;
+.footer-menu-link:hover,
+.footer-menu-link:focus {
+  color: #ecd979;
 }
 .footer-menu-item {
   max-width: 124px;
